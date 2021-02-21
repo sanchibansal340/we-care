@@ -1,0 +1,13 @@
+@import '../common';
+
+.Navbar {
+    .navbar-brand {
+        font-size: 1.75em;
+    }
+    .nav-link {
+        font-size: 1.25em;
+    }
+    .btn {
+        background-color: $base-color !important;
+    }
+}

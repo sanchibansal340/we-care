@@ -1,0 +1,23 @@
+.Features {
+    .card {
+        height: 9rem;
+    }
+    .card-1 {
+        background-color: #9590CF;
+    }
+    .card-2 {
+        background-color: #FC9390;
+    }
+    .card-3 {
+        background-color: #E53E48;
+    }
+    .card-4 {
+        background-color: #E5E5E5;
+    }
+
+    @media screen and (max-width: 350px) {
+        .card-body img {
+            display: none;
+        }
+    }
+}

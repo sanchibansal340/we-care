@@ -1,0 +1,16 @@
+@import '../common';
+
+.Diet {
+    .heading {
+        @include display4(1.75em);
+    }
+    .card-1 {
+        background-color: #9acc61;
+    }
+    .card-2 {
+        background-color: #362f73;
+    }
+    .card-3 {
+        background-color: #f08767;
+    }
+}

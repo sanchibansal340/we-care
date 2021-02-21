@@ -1,0 +1,12 @@
+@import '../common';
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.Info {
+    .heading {
+        @include display4(1.75em);
+    }
+    .faq {
+        @include display4(1.35em);
+        font-family: 'Lato', sans-serif;
+    }
+}

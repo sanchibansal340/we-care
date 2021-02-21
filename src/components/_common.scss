@@ -1,0 +1,7 @@
+$base-color: #837BDE;
+
+@mixin display4($property) {
+    .display-4 {
+        font-size: $property;
+    }
+}

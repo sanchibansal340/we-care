@@ -1,0 +1,88 @@
+@import '../common';
+
+.Quiz {
+    background-color: $base-color;
+    min-height: 100vh;
+
+    .heading {
+        @include display4(1.75em);
+    }
+
+    .row {
+        background-color: #1f1c36;
+        border-radius: 15px;
+        box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .refresh-icon a {
+        font-size: 3rem;
+    }
+      
+      .score-section {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      /* QUESTION/TIMER/LEFT SECTION */
+      .question-section {
+        width: 100%;
+        position: relative;
+      }
+      
+      .question-count {
+        margin-bottom: 20px;
+      }
+      
+      .question-count span {
+        font-size: 28px;
+      }
+      
+      .question-text {
+        margin-bottom: 12px;
+      }
+      
+      /* ANSWERS/RIGHT SECTION */
+      .answer-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      button {
+        width: 100%;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #252d4a;
+        border-radius: 15px;
+        display: flex;
+        padding: 5px;
+        justify-content: flex-start;
+        align-items: center;
+        border: 5px solid #234668;
+        cursor: pointer;
+      }
+      
+      .correct {
+        color: #2f922f;
+      }
+      
+      .incorrect {
+        color: #ff3333;
+      }
+      
+      button:hover {
+        background-color: #555e7d;
+      }
+      
+      button:focus {
+        outline: none;
+      }
+      
+      button svg {
+        margin-right: 5px;
+      }
+}

@@ -1,0 +1,5 @@
+@import '../common';
+
+.About {
+    @include display4(1.5em);
+}
