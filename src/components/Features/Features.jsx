@@ -2,7 +2,7 @@
 import info from '../../assets/info.png';
 import treatment from '../../assets/treat.png';
 import diet from '../../assets/diet.png';
-import diary from '../../assets/diary.png'
+import quiz from '../../assets/quiz.png'
 import { Link } from 'react-router-dom';
 import './Features.scss';
 
@@ -44,10 +44,12 @@ function Features() {
                     <div className="col-lg-5 col-md-12 mb-4">
                         <div className="card card-4">
                             <div className="card-body row align-items-center justify-content-center">
-                                <img src={diary} alt="Journal Logo" />
-                                <h4>Journal</h4>
+                                <img src={quiz} 
+                                    alt="Quiz Logo" 
+                                />
+                                <h4>Quiz</h4>
                             </div>
-                            <Link to="/journal" className="stretched-link"></Link>
+                            <Link to="/quiz" className="stretched-link"></Link>
                         </div>
                     </div>
                 </div>
